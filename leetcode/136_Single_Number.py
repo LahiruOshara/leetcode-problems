@@ -4,4 +4,4 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        return reduce(lambda a, b: a ^ b, nums)
+        return reduce(lambda a, b: a ^ b, nums) #reduce
